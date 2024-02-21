@@ -1,0 +1,10 @@
+@api = http://localhost:8080/api/auth
+
+### Signin
+POST {{api}}/signin
+Content-Type: application/json
+
+{
+  "email": "angelo.padoan201@gmail.com",
+  "password": "admin"
+}
